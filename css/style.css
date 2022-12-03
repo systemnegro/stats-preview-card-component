@@ -35,8 +35,23 @@ main{
 .text_title{
     color: var(--White);
     font-family: 'Inter', sans-serif;
-    text-align: center; 
-    margin: 10px;  
+    font-weight: 700;
+    text-align: center;   
+    width: 80%;
+    margin:auto;
+    padding-bottom: 15px;
+}
+.list-value{
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+    font-weight: 700;
+    font-size: 1.7em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.lits-name{
+    font-family: 'Lexend Deca', sans-serif;
+    
 }
 .emphasis{
     color: var(--Soft-violet);   
@@ -48,19 +63,24 @@ main{
     width: 80%;
     margin:auto;
     line-height: 1.5em;
-   
+    padding: 20px;
 }
 .list{
     list-style: none;
     color: var(--stat-headings-transparent-white);
-    font-family: 'Lexend Deca', sans-serif;
     text-align: center;
 }
-
+/* .list_text{
+    display: inline-grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 60px;
+    align-items:center;  
+} */
 div#container{
     background-color: var(--Dark-desaturated-blue);
-    width: 80vw;
-    height: 80vh;
+    margin:0 .8em;
+    margin-top: 100px;
+    margin-bottom: 100px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -76,4 +96,9 @@ div#container{
     mix-blend-mode:multiply;
     margin-bottom: 2em;
     
+    
+}
+.attribution{
+    text-align: center;
+    font-size: 11px;
 }
