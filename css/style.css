@@ -102,5 +102,6 @@ div#container{
 .attribution{
     text-align: center;
     font-size: 11px;
-    margin-bottom: 80px;
+    margin:4px 0 80px 0;
 }
+
