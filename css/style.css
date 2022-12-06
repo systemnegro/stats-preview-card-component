@@ -27,7 +27,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px; 
+    margin-top: 80px; 
 }
 .text_title{
     color: var(--White);
@@ -44,7 +44,7 @@ main{
     font-family: 'Inter', sans-serif;
     color: var(--White);
     font-weight: 700;
-    font-size: 1.7em;
+    font-size: 1.9em;
     margin-bottom: 5px;
 }
 .list > li{
@@ -52,7 +52,9 @@ main{
 }
 .list-name{
     font-family: 'Lexend Deca', sans-serif;
-   
+    letter-spacing: 1.8px;
+    font-size: .9em;
+    
     
 }
 .emphasis{
@@ -100,5 +102,5 @@ div#container{
 .attribution{
     text-align: center;
     font-size: 11px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
