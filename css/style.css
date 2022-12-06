@@ -57,7 +57,7 @@ main{
     color: var(--main-paragraph-transparent-white);
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
-    width:75%;
+    width:80%;
     margin:auto;
     line-height: 1.5em; 
 }
@@ -73,7 +73,7 @@ div#container{
     background-color: var(--Dark-desaturated-blue);
     border-radius: 10px;
     overflow: hidden;
-    width: 85vw;
+    width: 80vw;
 }
 .containerimage{
     background-color: var(--Soft-violet);  
