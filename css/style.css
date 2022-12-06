@@ -29,6 +29,24 @@ main{
     align-items: center;
     margin-top: 80px; 
 }
+div#container{
+    background-color: var(--Dark-desaturated-blue);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80vw;
+}
+.containerimage{
+    background-color: var(--Soft-violet);  
+}
+#image{
+    display: block;
+    height: 220px;
+    background: url(../images/image-header-mobile.jpg) no-repeat;
+    background-size:cover ;
+    background-position:center ;
+    mix-blend-mode:multiply;
+    margin-bottom: 3em;    
+}
 .text_title{
     color: var(--White);
     font-family: 'Inter', sans-serif;
@@ -36,6 +54,21 @@ main{
     text-align: center;   
     width: 95%;
     margin:0 auto .5em auto; 
+}
+.emphasis{
+    color: var(--Soft-violet);   
+}
+.text-paragraph{
+    color: var(--main-paragraph-transparent-white);
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    width:80%;
+    margin:auto;
+    line-height: 1.5em; 
+}
+.list{
+    list-style: none; 
+    text-align: center;
 }
 .list-value{
     font-family: 'Inter', sans-serif;
@@ -51,45 +84,16 @@ main{
     font-size: .9em;
     color: var(--stat-headings-transparent-white);  
 }
-.emphasis{
-    color: var(--Soft-violet);   
-}
-.text-paragraph{
-    color: var(--main-paragraph-transparent-white);
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    width:80%;
-    margin:auto;
-    line-height: 1.5em; 
-}
-.list{
-    list-style: none; 
-    text-align: center;
-}
 .list > li{
-    margin: 30px;
-}
-div#container{
-    background-color: var(--Dark-desaturated-blue);
-    border-radius: 10px;
-    overflow: hidden;
-    width: 80vw;
-}
-.containerimage{
-    background-color: var(--Soft-violet);  
-}
-
-#image{
-    display: block;
-    background: url(../images/image-header-mobile.jpg) no-repeat;
-    background-size: cover;
-    height: 220px;
-    mix-blend-mode:multiply;
-    margin-bottom: 3em; 
+    margin: 30px 0 30px 0;
 }
 .attribution{
     text-align: center;
-    font-size: 11px;
+    font-size: 0.7em;
     margin:4px 0 80px 0;
+    color: var(--White);
+}
+.attribution a{
+    color: var(--stat-headings-transparent-white);
 }
 
