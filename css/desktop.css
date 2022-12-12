@@ -1,0 +1,35 @@
+
+@media screen and (min-width:992px) {
+    body{
+        width: 100%;
+       
+    }
+    main{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .containerimage{
+        background-color: var(--Soft-violet);  
+       
+        
+        
+    }
+
+    #image{
+        background: url(../images/image-header-desktop.jpg)no-repeat;
+        background-size: cover;
+        background-position: center;
+        float: right;
+        width: 50%;
+        height:354px;
+        mix-blend-mode:multiply;
+        
+    }
+    #text{
+        float: right;
+        width: 50%;
+    }
+}
