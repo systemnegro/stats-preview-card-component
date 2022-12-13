@@ -10,7 +10,9 @@
      
     }
     .containerimage{
-        background-color: var(--Soft-violet);  
+        background-color: var(--Soft-violet); 
+        grid-column: 2; 
+        grid-row: 1;
     }
     #container{
         display: grid;
@@ -24,11 +26,14 @@
         background-position: center;
         height:354px;
         mix-blend-mode:multiply; 
+       
     }
     /* #text{
        
     } */
-}   .list >li{
+   .list >li{
     display: grid;
-    grid-template-columns: 1fr ;
+   
+   }
+  
 }
