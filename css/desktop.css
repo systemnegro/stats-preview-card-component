@@ -8,14 +8,10 @@
         margin-top: 11%;
         display: flex;
         justify-content: center;
-        
-        
+     
     }
     .containerimage{
         background-color: var(--Soft-violet);  
-       
-        
-        
     }
     #container{
         display: grid;
@@ -28,9 +24,7 @@
         background-size: cover;
         background-position: center;
         height:354px;
-        mix-blend-mode:multiply;
-        
-        
+        mix-blend-mode:multiply; 
     }
     /* #text{
        
