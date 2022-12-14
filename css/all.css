@@ -39,8 +39,7 @@ div#container{
 .text-paragraph{
     color: var(--main-paragraph-transparent-white);
     text-align: center;
-    font-family: 'Lexend Deca', sans-serif;
-    line-height: 1.5em; 
+    font-family: 'Lexend Deca', sans-serif; 
 }
 .list{
     list-style: none; 
@@ -52,7 +51,6 @@ div#container{
 }
 .list-name{
     font-family: 'Lexend Deca', sans-serif;
-    letter-spacing: 1.8px;
     color: var(--stat-headings-transparent-white);  
 }
 .attribution{

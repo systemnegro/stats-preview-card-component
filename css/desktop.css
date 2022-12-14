@@ -1,10 +1,10 @@
 
 @media screen and (min-width:992px) {
     body{
-        height: 80vh; 
+        min-height: 80vh; 
     }
     main{
-        margin-top: 150px;
+        margin-top: 120px;
         display: flex;
         justify-content: center;
     }
@@ -14,7 +14,7 @@
         grid-row: 1;
     }
     #container{
-        width: 1000px;
+        max-width: 1020px;
         display: grid;
         grid-template-columns:1fr 1fr;
         
@@ -23,20 +23,21 @@
         display:block;
         background: url(../images/image-header-desktop.jpg)no-repeat;
         background-size: cover;
-        background-position: center;
-        height:354px;
+        background-position:top center;
+        height:414px;
         mix-blend-mode:multiply;    
     }
     .text_title{
         width:62%;
-        margin:40px auto 0 auto ; 
+        margin:65px auto 0 auto ; 
         text-align: left;   
     }
     .text-paragraph{ 
         width:62%;
-        margin:20px auto 35px auto;
+        margin:20px auto 40px auto;
         text-align: left;
         font-size: 13px;
+        line-height: 1.7em; 
     }
    .list{
     display: flex;
@@ -45,19 +46,21 @@
     justify-content:space-between;
     text-align: left;
     padding-right: 26px;
-
    }
    .list > li{
     margin: 1rem 0;
    }
    .list-value{
     font-size: 1.4em;
+    margin-bottom:.4rem;
+
    }
    .list-name{
     font-size:.6em ;
+    letter-spacing: 2px;
    }
    .attribution{
-    margin-top: .3rem;
+    margin-top: .5rem;
    }
     
    
