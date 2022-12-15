@@ -1,0 +1,38 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+    #container{ 
+        display: grid;
+        grid-template-rows:1fr 1fr; 
+    }                          
+
+    #image{
+        display:block;
+        background: url(../images/image-header-desktop.jpg)no-repeat;
+        background-size: cover;
+        background-position:top center;
+        height:460px;
+        mix-blend-mode:multiply; 
+        margin: 0; 
+    }
+    .text_title{
+        width:90%;
+        margin:25px auto 0 auto ;
+         
+    }
+    .text-paragraph{ 
+        width:90%;
+        margin:0 auto;
+        line-height: 1.7em; 
+        font-size: 1.2em;
+    }
+    .list{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        flex-wrap: wrap;
+        
+
+       }
+    .kekw{
+        grid-column: 1/3;
+    }
+}

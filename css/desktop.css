@@ -2,6 +2,7 @@
 @media screen and (min-width:992px) {
     body{
         min-height: 80vh; 
+        
     }
     main{
         margin-top: 120px;
@@ -13,7 +14,7 @@
         grid-column:2; 
         grid-row: 1;
     }
-    #container{
+    #container{ 
         max-width: 1020px;
         display: grid;
         grid-template-columns:1fr 1fr;
@@ -25,7 +26,8 @@
         background-size: cover;
         background-position:top center;
         height:414px;
-        mix-blend-mode:multiply;    
+        mix-blend-mode:multiply;  
+        margin: 0;
     }
     .text_title{
         width:62%;
@@ -61,6 +63,7 @@
    }
    .attribution{
     margin-top: .5rem;
+    
    }
     
    
