@@ -19,7 +19,8 @@ div#container{
     background-size:cover ;
     background-position:center ;
     mix-blend-mode:multiply;
-    margin-bottom: 3em;    
+    margin-bottom: 3em; 
+    opacity:0.8;   
 }
 .text_title{
    

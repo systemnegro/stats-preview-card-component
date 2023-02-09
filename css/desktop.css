@@ -26,6 +26,7 @@
         height:414px;
         mix-blend-mode:multiply;  
         margin: 0;
+        opacity:0.8;
     }
     .text_title{
         width:62%;

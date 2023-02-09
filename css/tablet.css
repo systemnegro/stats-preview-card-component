@@ -10,7 +10,8 @@
         background-position:top center;
         height:460px;
         mix-blend-mode:multiply; 
-        margin: 0; 
+        margin: 0;
+        opacity:0.8; 
     }
     .text_title{
         width:90%;
